@@ -1,7 +1,7 @@
 name: PerWorldAlerts
-main: PerWorldAlerts\Main
-version: "1.1"
-api: [1.9.0]
+main: PerWorldAlerts\PerWorldAlerts
+version: 1.2
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
 load: STARTUP
 author: EvolSoft
 description: Show alerts (join/leave messages, etc...) in each world

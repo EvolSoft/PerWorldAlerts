@@ -1,4 +1,10 @@
 ---
+#Log alerts on PocketMine console
 log-on-console: true
+#World list where alerts are disabled
+#For example:
+#disabled-in-worlds:
+# - world
+# - world2
 disabled-in-worlds: []
 ...
