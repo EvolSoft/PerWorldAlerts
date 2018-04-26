@@ -1,7 +1,7 @@
 <?php
 
 /*
- * PerWorldAlerts (v1.2) by EvolSoft
+ * PerWorldAlerts (v1.3) by EvolSoft
  * Developer: EvolSoft (Flavius12)
  * Website: https://www.evolsoft.it
  * Date: 04/01/2018 04:37 PM (UTC)
