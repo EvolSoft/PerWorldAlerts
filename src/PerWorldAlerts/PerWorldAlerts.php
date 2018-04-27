@@ -1,10 +1,10 @@
 <?php
 
 /*
- * PerWorldAlerts (v1.3) by EvolSoft
+ * PerWorldAlerts (v1.4) by EvolSoft
  * Developer: EvolSoft (Flavius12)
  * Website: https://www.evolsoft.it
- * Date: 04/01/2018 04:37 PM (UTC)
+ * Date: 27/04/2018 02:01 PM (UTC)
  * Copyright & License: (C) 2014-2018 EvolSoft
  * Licensed under MIT (https://github.com/EvolSoft/PerWorldAlerts/blob/master/LICENSE)
  */
@@ -59,9 +59,6 @@ class PerWorldAlerts extends PluginBase {
     public function onEnable(){
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
-        $logger = Server::getInstance()->getLogger();
-        $logger->info($this->translateColors("&", self::PREFIX . "&ePerWorldAlerts &bv" . $this->getDescription()->getVersion() . "&e developed by &bEvolSoft"));
-        $logger->info($this->translateColors("&", self::PREFIX . "&eWebsite &b" . $this->getDescription()->getWebsite()));
 	    $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
     }
     
